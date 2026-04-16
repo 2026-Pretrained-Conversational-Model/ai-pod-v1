@@ -10,8 +10,8 @@
 # ============================================================
 
 REPO_DIR="${REPO_DIR:-/workspace/ai-orchestrator}"
-LOG_FILE="./workspace/logs/server.log"
-PID_FILE="./workspace/server.pid"
+LOG_FILE="/workspace/logs/server.log"
+PID_FILE="/workspace/server.pid"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 mkdir -p /workspace/logs
